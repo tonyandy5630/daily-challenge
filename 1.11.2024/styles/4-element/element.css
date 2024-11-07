@@ -1,0 +1,18 @@
+@import url("./typography.css");
+
+ul {
+  list-style: none;
+  width: 100%;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  font-size: var(--text-md);
+  background-color: transparent;
+  font-weight: var(--font-bold);
+}
+
+img {
+  width: 100%;
+}

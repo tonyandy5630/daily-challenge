@@ -1,0 +1,33 @@
+.grid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: var(--gap-xl);
+}
+
+.grid__item {
+  padding: var(--p-md);
+  display: flex;
+  justify-content: flex-start;
+  grid-column: var(--span-12);
+  @media screen and (min-width: 1068px) {
+    grid-column: var(--span-6);
+  }
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: var(--spacing-lg);
+  width: 100%;
+  align-items: start;
+}
+
+.container {
+  width: 100%;
+  padding: var(--p-md);
+  @media screen and (min-width: 1068px) {
+    width: 80%;
+  }
+}

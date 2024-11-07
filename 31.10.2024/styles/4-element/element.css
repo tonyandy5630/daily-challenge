@@ -1,0 +1,26 @@
+@import url("./typography.css");
+ul {
+  list-style: none;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  border-radius: var(--rounded-lg);
+}
+
+img {
+  width: 100%;
+}
+
+img {
+  object-fit: scale-down;
+}
+
+button {
+  border-radius: var(--rounded-lg);
+  cursor: pointer;
+  background-color: var(--pink);
+  font-size: var(--text-sm);
+  border: 1px solid var(--black);
+}

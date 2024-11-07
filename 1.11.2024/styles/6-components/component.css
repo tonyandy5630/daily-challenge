@@ -1,0 +1,55 @@
+.button-lg {
+  width: 100%;
+}
+
+.square-icon {
+  height: 8px;
+  width: 8px;
+  background-color: var(--black);
+}
+
+.nav__item--desktop {
+  display: none;
+  @media screen and (min-width: 1200px) {
+    display: flex;
+  }
+}
+
+.btn {
+  margin: auto;
+  padding: var(--p-md);
+  text-align: center;
+  border-radius: var(--rounded-md);
+}
+
+.feature__description {
+  font-weight: var(--font-bold);
+  font-size: var(--text-md);
+}
+
+.feature__heading {
+  font-size: clamp(var(--text-lg), var(--text-lg) + 0.75vw, var(--text-xl));
+}
+
+.btn--ghost {
+  background: transparent;
+}
+
+.btn--outlined {
+  border: 2px solid var(--black);
+}
+
+.btn-primary {
+  background-color: var(--purple);
+  color: var(--white);
+}
+
+.btn-secondary {
+  background-color: var(--light-purple);
+  color: var(--dark-purple);
+}
+
+.language-selector img {
+  width: 40px;
+  height: 25px;
+}

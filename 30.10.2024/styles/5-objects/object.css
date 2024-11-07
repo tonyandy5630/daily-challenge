@@ -1,0 +1,29 @@
+.grid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+.grid__item {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  grid-column: var(--span-12);
+  @media screen and (min-width: 1068px) {
+    grid-column: var(--span-6);
+  }
+}
+
+.box {
+  padding: var(--p-md);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  gap: var(--gap-md);
+}
+
+.container {
+  max-width: var(--xxl);
+  padding: var(--p-md);
+}

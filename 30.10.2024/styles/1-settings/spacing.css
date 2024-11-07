@@ -1,0 +1,19 @@
+:root {
+  /* gap */
+  --gap-sm: 0.125rem;
+  --gap-md: 0.25rem;
+  --gap-lg: 0.5rem;
+
+  /* padding */
+  --p-sm: 0.25rem;
+  --p-md: 0.5rem;
+  --p-lg: 0.75rem;
+
+  /* spacing */
+  --spacing-sm: 0.25rem; /* 4px */
+  --spacing-md: 0.5rem; /* 8px */
+  --spacing-lg: 0.75rem; /* 12px */
+
+  --span-12: span 12;
+  --span-6: span 6;
+}

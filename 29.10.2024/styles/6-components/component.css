@@ -1,0 +1,15 @@
+.service-item {
+  border-bottom: dashed 1px var(--gray);
+  min-height: var(--height-md);
+  width: 100%;
+}
+
+.service-title {
+  font-size: var(--text-lg);
+  font-weight: var(--font-bold);
+}
+
+.service-title__subtitle {
+  font-size: var(--text-md);
+  text-transform: uppercase;
+}

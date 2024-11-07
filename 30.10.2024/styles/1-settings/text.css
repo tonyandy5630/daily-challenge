@@ -1,0 +1,17 @@
+:root {
+  --font-family-base: Arial, sans-serif;
+
+  /* font size */
+  --text-md: 1.5rem;
+  --text-lg: 1.75rem;
+  --text-xl: 2.5rem;
+  --text-xxl: 5rem;
+
+  /* font weight */
+  --font-normal: 500;
+  --font-bold: 700;
+
+  /* line height */
+  --line-height-sm: 1;
+  --line-height-md: 1.115;
+}

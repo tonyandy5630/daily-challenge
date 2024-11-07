@@ -1,0 +1,53 @@
+ul {
+  list-style: none;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  border-radius: var(--rounded-lg);
+}
+
+img {
+  width: 100%;
+}
+
+img {
+  object-fit: scale-down;
+}
+
+button {
+  width: var(--md);
+  height: var(--h-sm);
+  border-radius: var(--rounded-lg);
+  cursor: pointer;
+  background-color: var(--pink);
+  font-size: var(--text-md);
+  border: none;
+}
+
+/* Typography */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  line-height: var(--line-height-md);
+  padding: var(--p-sm);
+}
+
+h3,
+h4 {
+  font-weight: var(--font-bold);
+  text-transform: capitalize;
+}
+
+h3 {
+  font-size: var(--text-xxl);
+}
+
+h4 {
+  font-size: var(--text-md);
+}

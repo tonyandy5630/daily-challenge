@@ -1,0 +1,46 @@
+@import url("../font.css");
+
+:root {
+  --font-family-base: "ClashGrotesk", Arial, sans-serif;
+
+  --gray: #e2e3e6;
+  --black: #000000;
+
+  /* font size */
+  --text-md: 1rem; /* 16px */
+  --text-lg: 1.9rem;
+
+  /* spacing */
+  --spacing-sm: 0.25rem; /* 4px */
+  --spacing-md: 0.5rem; /* 8px */
+  --spacing-lg: 0.75rem; /* 12px */
+
+  /* padding */
+  --p-sm: 0.25rem;
+  --p-md: 0.5rem;
+  --p-lg: 0.75rem;
+
+  /* font weight */
+  --font-normal: 500;
+  --font-bold: 700;
+
+  /* line height */
+  --line-height-sm: 1;
+  --line-height-md: 1.15;
+
+  /* height */
+  --height-md: 10rem; /* 160rem */
+  --height-lg: 15rem; /* 64rem */
+
+  /* width */
+  --width-md: 10rem; /* 160px */
+  --width-lg: 14rem; /* 224px */
+
+  /* gap */
+  --gap-sm: 0.125rem; /* 2px */
+  --gap-md: 0.25rem; /* 4px */
+  --gap-lg: 0.5rem; /* 8px */
+
+  /* border radius */
+  --rounded-sm: 0.1875rem;
+}

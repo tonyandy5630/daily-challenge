@@ -1,0 +1,12 @@
+ul {
+  list-style: none;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+}
+
+img {
+  width: 100%;
+}

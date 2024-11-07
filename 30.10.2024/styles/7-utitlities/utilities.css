@@ -1,0 +1,59 @@
+.p-3 {
+  padding: 0.3rem;
+}
+
+.w-5 {
+  width: 5rem;
+}
+
+.h-5 {
+  height: 5rem;
+}
+
+.w-14 {
+  width: 14rem;
+}
+
+.height-14 {
+  height: 14rem;
+}
+
+.w-23 {
+  width: 23rem;
+}
+
+.w-23 {
+  width: 23rem;
+}
+
+.mr-10 {
+  margin-right: 10rem;
+}
+
+.ml-5 {
+  margin-left: 5rem;
+}
+
+.ml-10 {
+  margin-left: 10rem;
+}
+
+.span-12 {
+  grid-column: span 12;
+}
+
+.bg-green {
+  background-color: var(--green);
+}
+
+.bg-yellow {
+  background-color: var(--yellow);
+}
+
+.bg-pink {
+  background-color: var(--pink);
+}
+
+.bg-blue {
+  background-color: var(--blue);
+}

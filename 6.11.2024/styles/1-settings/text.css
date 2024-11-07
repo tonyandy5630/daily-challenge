@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Prompt:wght@500;700;900&display=swap");
+:root {
+  --font-family-base: Noto Sans, sans-serif;
+
+  /* font size */
+  --text-sm: 0.875rem;
+  --text-md: 1.125rem;
+  --text-lg: 2rem;
+  --text-xl: 2.5rem;
+  --text-xxl: 5rem;
+  
+
+  /* font weight */
+  --font-normal: 500;
+  --font-bold: 700;
+
+  /* line height */
+  --line-height-sm: 1;
+  --line-height-md: 1.115;
+}

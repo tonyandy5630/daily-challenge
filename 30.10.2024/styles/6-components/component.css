@@ -1,0 +1,4 @@
+.why-nod > .grid__item:first-child,
+.why-nod > .grid__item:last-child {
+  padding: var(--p-md);
+}

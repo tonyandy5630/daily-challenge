@@ -1,0 +1,86 @@
+.p-3 {
+  padding: 0.3rem;
+}
+
+.w-5 {
+  width: 5rem;
+}
+
+.w-13 {
+  width: 13rem;
+}
+
+.h-5 {
+  height: 5rem;
+}
+
+.w-14 {
+  width: 14rem;
+}
+
+.height-14 {
+  height: 14rem;
+}
+
+.w-23 {
+  width: 23rem;
+}
+
+.w-23 {
+  width: 23rem;
+}
+
+.mr-10 {
+  margin-right: 10rem;
+}
+
+.ml-5 {
+  margin-left: 5rem;
+}
+
+.ml-10 {
+  margin-left: 10rem;
+}
+
+.span-12 {
+  grid-column: span 12;
+}
+
+.border-black {
+  border: 1px solid var(--black);
+}
+
+.hidden-lg {
+  @media screen and (min-width: 1068px) {
+    display: none;
+  }
+}
+
+.text-md {
+  font-size: var(--text-md);
+}
+
+.font-bold {
+  font-weight: var(--font-bold);
+}
+
+.font-normal {
+  font-weight: var(--font-normal);
+}
+
+.text-lg {
+  font-size: var(--text-lg);
+}
+
+.text-xl {
+  font-size: var(--text-xl);
+}
+
+.text-purple {
+  color: var(--purple);
+}
+
+.py-4 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}

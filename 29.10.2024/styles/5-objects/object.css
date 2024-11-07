@@ -1,0 +1,28 @@
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.grid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: var(--w-5) 1fr var(--w-5);
+  grid-auto-flow: column;
+  align-items: start;
+}
+
+.service-grid__item {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: var(--p-lg);
+}
+
+.service-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
