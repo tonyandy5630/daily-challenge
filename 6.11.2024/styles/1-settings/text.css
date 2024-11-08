@@ -3,11 +3,12 @@
   --font-family-base: Noto Sans, sans-serif;
 
   /* font size */
-  --text-sm: 0.775rem;
+  --text-sm: 0.875rem;
   --text-md: 1.125rem;
   --text-lg: 2rem;
-  --text-xl: 2.25rem;
-  --text-xxl: 3rem;
+  --text-xl: 2.5rem;
+  --text-xxl: 5rem;
+  
 
   /* font weight */
   --font-normal: 500;

@@ -1,27 +1,22 @@
-@import url("./typography.css");
-
-ul {
-  list-style: none;
-  width: 100%;
-}
-
 button {
+  border-radius: var(--rounded-lg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border: none;
   cursor: pointer;
   font-size: var(--text-md);
   background-color: transparent;
   font-weight: var(--font-bold);
-}
-
-img {
-  width: 100%;
+  padding: var(--p-sm) var(--p-md);
 }
 
 input {
-  padding: var(--p-md) var(--p-md);
+  padding: var(--p-sm);
   position: relative;
   width: 100%;
   border: none;
   outline: none;
   font-size: var(--text-md);
+  background-color: transparent;
 }

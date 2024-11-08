@@ -26,25 +26,37 @@
 .inline {
   display: flex;
   justify-content: center;
-  align-items: start;
-  flex-direction: column;
-  @media screen and (min-width: 768px) {
-    flex-direction: row;
-    align-items: center;
-  }
+  align-items: center;
+  flex-direction: row;
   gap: var(--gap-md);
+  flex-wrap: wrap;
 }
 
 .container {
   margin: 0 auto;
   width: fit-content;
+  padding: var(--p-md);
   @media screen and (min-width: 768px) {
     max-width: 1400px;
   }
 }
 
-.card {
-  border: 1px solid var(--gray);
-  padding: var(--p-lg);
-  border-radius: var(--rounded-sm);
+.chip {
+  padding: var(--p-sm);
+  border-radius: var(--rounded-md);
+  background-color: var(--gray-400);
+  font-size: var(--text-sm);
+  width: fit-content;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__list {
+  display: flex;
+  gap: var(--gap-md);
+  font-weight: var(--font-bold);
 }

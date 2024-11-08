@@ -59,13 +59,7 @@
 }
 
 .hidden-lg {
-  @media screen and (max-width: 1268px) {
-    display: none;
-  }
-}
-
-.hidden-xs {
-  @media screen and (min-width: 1268px) {
+  @media screen and (min-width: 1068px) {
     display: none;
   }
 }
@@ -142,8 +136,4 @@
 .py-3 {
   padding-top: 3rem;
   padding-bottom: 3rem;
-}
-
-.gap-3 {
-  gap: 3rem;
 }
