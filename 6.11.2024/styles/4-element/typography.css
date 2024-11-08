@@ -4,20 +4,16 @@ h2,
 h3,
 h4,
 h5,
-h6,
-p {
+h6 {
   line-height: var(--line-height-md);
   padding: var(--p-sm);
-}
-
-h3,
-h4 {
-  font-weight: var(--font-bold);
-  text-transform: capitalize;
+  text-align: center;
+  text-wrap: balance;
 }
 
 h2 {
   font-size: var(--text-xl);
+  font-weight: 400;
 }
 
 h3 {

@@ -1,25 +1,12 @@
-.section__title {
-  font-size: clamp(var(--text-xl), var(--text-xl) + 2vw, var(--text-xxl));
+.nav__brand {
+  width: 89px;
+  height: 40px;
+  aspect-ratio: 210/59;
 }
 
-.feature {
-  border-color: var(--gray-800);
-}
-
-.feature__content {
-  display: flex;
-  flex-direction: column;
-  gap: var(--gap-md);
-}
-
-.feature__content a {
-  font-weight: var(--font-bold);
-}
-
-.feature__logo {
-  width: 80px;
-  height: 80px;
-  border-radius: var(--rounded-md);
+.nav__brand svg {
+  width: 100%;
+  height: 100%;
 }
 
 .input,
@@ -31,10 +18,30 @@
 }
 
 .btn--contained {
-  background-color: var(--dark-green);
+  background-color: var(--black);
+  color: var(--white);
 }
 
-.category-list__wrapper {
-  padding: var(--p-sm) var(--p-lg);
-  justify-items: center;
+.input-wrapper--contained {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--gray-400);
+  border-radius: var(--rounded-lg);
+  width: 100%;
+  padding: var(--p-sm);
+}
+
+.suggestion {
+  flex-direction: column;
+  padding: var(--p-md) 0;
+  gap: var(--gap-lg);
+  @media screen and (min-width: 768px) {
+    flex-direction: row;
+  }
+}
+
+.suggestion > p {
+  color: var(--gray-600);
+  font-size: var(--text-sm);
 }

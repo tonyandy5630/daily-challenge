@@ -6,7 +6,6 @@
 
 section {
   width: 100%;
-  padding: var(--p-sm);
 }
 
 html,
@@ -15,13 +14,4 @@ body {
   width: 100vw;
   overflow-x: hidden;
   font-family: var(--font-family-base);
-}
-
-nav {
-  padding: var(--p-sm);
-}
-
-ul,
-li {
-  list-style: none;
 }

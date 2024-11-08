@@ -25,7 +25,3 @@ input {
   outline: none;
   font-size: var(--text-md);
 }
-
-a {
-  padding: var(--p-sm);
-}
